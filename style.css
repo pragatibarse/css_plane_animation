@@ -1,0 +1,56 @@
+body{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-image: url(im.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: 50px;
+}
+.plane{
+	height: 50px;
+	width: 100px;
+	float: left;
+	margin-top: 250px;
+	margin-right: 10px;
+	animation-name: ani_plane;
+	position: relative;
+		animation-iteration-count: 5;
+
+/*		animation-direction: reverse;
+*/
+	animation-duration: 15s;
+}
+.plane_img{
+	height: 200px;
+	width: 400px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 1050px;
+}
+
+@keyframes ani_plane{
+	0%{bottom:0px;right: 0px;}
+	15%{bottom: 0px;right: 25%;}
+
+	85%{bottom:500px;right: 95%;}
+	/*25%{bottom: 0px;right: 15%;}
+	30%{bottom: 0px;right: 30%;}
+	40%{bottom: 500px;right:30%;}
+	45%{bottom: 500px; right:45%;}*/
+	/*55%{bottom: 0px; left: 45%;}
+	60%{bottom: 0px; left: 60%;}
+	70%{bottom:500px; left: 60%;}
+	75%{bottom:500px; left: 75%;}
+	85%{bottom:0px; left: 75%;}
+	90%{bottom:0px; left: 90%;}
+	95%{bottom:500px; left: 90%;}
+100%{bottom: 500px; left: 98%;}**/
+}
+
+
+/*
+0%{bottom:0px;right: 0px;}
+	10%{bottom: 0px;right: 35%;}
+
+	25%{bottom:500px;right: 85%;}*/
